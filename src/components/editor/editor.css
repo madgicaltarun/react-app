@@ -1,0 +1,137 @@
+/* select{
+    width: 100%;
+    outline: none;
+    border: none;   
+}
+.dropdown1{
+    width: 100%;
+    padding: 0px 10px;
+    height: 100%;
+}
+.option{
+    width: 100%;
+    padding: 0 10px;
+    height: 100px
+} */
+
+.data{
+    width: 100%;
+    height: 54px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+.user_data{
+    width: 576px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 1px solid #D9D5EC;
+}
+.user_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 256px;
+    width: 25vw;
+}
+.user_info img{
+    margin-right: 20px;
+}
+.user_plan{
+    max-width: 290px;
+    width: 28vw;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+.user_plan p{
+    margin-left: 10px;
+}
+.right-side{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bonus{
+    width: 120px;
+    text-align: end;
+}
+.bonus-text{
+    width: 140px;
+}
+.right-side img{
+    opacity: 20%;
+}
+.right-side img:hover{
+    opacity: 70%;
+}
+.arrow-right{
+   display: none;
+}
+
+.dropdown1{
+    width:100%;
+    border-radius: 5px;
+}
+.dropdown1 select{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+ @media screen and (max-width:767px) {
+    .data{
+        width: 100%;
+        height: 40px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        justify-content: space-between;
+    }
+    .user_data{
+        width:100%;
+        height: 54px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+        align-items: center;
+        border: none;
+    }
+    .user_plan{
+        background-color: transparent;
+    }
+    .arrow-right{
+        display: block;
+        justify-self: end;
+        margin-right: 10px;
+    }
+    .user_info img{
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .right-side{
+        width: 100%;
+    }
+    .dropdown1{
+        width:100%;
+    }
+    .dropdown1 select{
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+     
+ }

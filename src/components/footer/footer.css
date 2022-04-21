@@ -1,0 +1,14 @@
+.footer-content{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-heading{
+    padding-left: 50px;
+}
+.footer-btn{
+    margin-right: 20px;
+    width: 50px;
+}
